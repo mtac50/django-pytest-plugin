@@ -1,0 +1,15 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/docker-existing-dockerfile
+{
+	"name": "django-pytest-plugin-dev",
+	"context": "..",
+	"dockerFile": "./Dockerfile",
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"extensions": [
+				"ms-python.python@2021.9.1246542782"
+			]
+		}
+	},
+}
