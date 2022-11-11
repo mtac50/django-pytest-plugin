@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+
+recursive-exclude .git *
+recursive-exclude bin *
+recursive-exclude include *
+recursive-exclude lib *
+recursive-exclude share *
+recursive-exclude src *
